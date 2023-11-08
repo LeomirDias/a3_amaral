@@ -1,30 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #9DE1FF;
-    list-style: none;
-    text-decoration: none;
-}
-header{
+.menu{
     height: 112px;
-    width: 2560px;
+    width: 100vw;
     position: fixed;
     display: flex;
     align-items: center;
-    column-gap: 20px;
     background-color: white;
-
+    justify-content: space-around;
+    gap: 60px;
+    box-shadow:0px 4px 30px 9px rgba(0, 0, 0, 0.09);
 }
+
 #logo{
     width: 88px;
     height: 90px;
     background: white;
-    margin-left: 200px;
 }   
+
 #nome{
     width: 400px;
     height: 40px;
     color: rgb(0, 33, 76);
     background-color: white;
-   /*Alterar fonte*/
 }
+
+.menu ul{
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.menu ul li:hover{
+    color: #164496;
+    transform: scale(1.05);
+    border-bottom: 2px solid #0c3883;
+}
+
+#comprar{
+    border: 2px solid #0c3883;
+    outline: transparent;
+    background-color: #0c3883;
+    color: #ffff;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+#comprar:hover{
+    transform: scale(1.05);
+    background: #ffab44;
+    border: 2px solid #f58f13;
+    color: white;
+}
+
+.menu div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #0c3883;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.menu div:hover{
+    background-color: #0c3883;
+}
+
+.menu div img{
+    width: 50px;
+    transition: .4s;
+    padding: 10px;
+}
+
+.menu div img:hover{
+    content: url("../assets/icons-rede-social/wppwhite.png");
+}
+
+
