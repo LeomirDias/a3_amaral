@@ -1,0 +1,159 @@
+.footer {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #164496;
+  color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px 200px 0px 200px;
+
+
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  min-height: 500px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+
+}
+
+.logo-footer {
+  width: 170px;
+}
+
+.icon-rede-social-footer {
+  width: 50px;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+  border: 2px solid #fff;
+  box-shadow:0px 0px 20px 0px #081f48;
+  transition: .4s;
+}
+
+.icon-rede-social-footer:hover {
+  transform: scale(1.05);
+}
+
+.container-footer-endereco, .container-footer-horario, .container-footer-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  width: 40%;
+
+  padding-bottom: 50px;
+}
+
+/* endereço */
+
+.container-footer-endereco {
+  align-items: flex-start;
+}
+
+.container-footer-endereco h3 {
+  font-size: 40px;
+}
+
+.container-footer-endereco p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container-footer-endereco p:last-child {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container-footer-endereco p span {
+  font-weight: bold;
+}
+
+.container-footer-endereco button {
+  border: none;
+  outline: transparent;
+  background: #fff;
+  color: #164496;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  box-shadow:0px 0px 20px 0px #081f48;
+  transition: .4s;
+}
+
+.container-footer-endereco button:hover {
+  transform: scale(1.05);
+}
+
+/* lista */
+
+
+.container-footer-lista {
+  align-items: flex-end;
+}
+
+.container-footer-lista p {
+  text-shadow: 4px 4px 5px rgba(0,0,0,1);
+  font-size: 25px;
+  transition: .4s;
+}
+
+.container-footer-lista p:hover {
+  transform: scale(1.05);
+}
+
+.container-footer-lista div {
+  display: flex;
+  gap: 20px;
+}
+
+#checking, #promocoes {
+  border: 1px solid #fff;
+  outline: transparent;
+  background: transparent;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 6px;
+  box-shadow:0px 0px 20px 0px #081f48;
+  transition: .4s;
+}
+
+#promocoes:hover {
+  background: #fff;
+  color: #164496;
+  transform: scale(1.05);
+}
+
+#checking {
+  background: #17a3dd;
+}
+
+#checking:hover {
+  transform: scale(1.05);
+
+}
+
+/* creditos */
+
+.dev {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dev span {
+  color: #fff;
+  opacity: .5;
+}
