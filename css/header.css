@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #9DE1FF;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    height: 112px;
+    width: 2560px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    background-color: white;
+
+}
+#logo{
+    width: 88px;
+    height: 90px;
+    background: white;
+    margin-left: 200px;
+}   
+#nome{
+    width: 400px;
+    height: 40px;
+    color: rgb(0, 33, 76);
+    background-color: white;
+   /*Alterar fonte*/
+}
