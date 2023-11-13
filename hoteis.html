@@ -17,12 +17,20 @@
 </head>
 <body>
     <header class="menu">
-        <img alt="logo-header"id="logo" src="./assets/logo.png">
+        <img alt="logo-header"id="logo" src="./assets/logotipo.svg">
         <ul>
-            <li>Home</li>
-            <li>Sobre</li>
+            <a href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="#sobre">
+                <li>Sobre</li>
+            </a>
+           <a href="">
             <li>Promoções</li>
-            <li>Hotéis</li>
+           </a>
+            <a href="./hoteis.html" target="_self">
+                <li>Hotéis</li>
+            </a>
         </ul>
         <button id="comprar">Comprar</button>
         <div> 
@@ -53,10 +61,46 @@
                 <button class="button">Reserve agora</button>
             </div>
             <div class="hotel">
+                <img src="./assets/hoteis/imagem.png" alt="imagem hotel" class="img-hotel">
+                <div class="info-hotel">
 
+                    <h2>Casa de campo em Corumbá de Goiás</h2>
+                    <div class="text">
+                        <div class="local">
+                            <img src="./assets/icons-hoteis-cards/loc.svg" alt="" class="img-icon-text">
+                            <p>Chácara Coqueirão descanso e lazer- Pirenópolis- GO</p>
+                        </div>
+                        <div class="valor-nota">
+                            <div class="valor">
+                                <img src="./assets/icons-hoteis-cards/cifrao.svg" alt="" class="img-icon-text">
+                                <p>R$1.023,00/ Noite</p>
+                            </div>
+                            <img src="./assets/icons-hoteis-cards/star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button class="button">Reserve agora</button>
             </div>
             <div class="hotel">
+                <img src="./assets/hoteis/imagem.png" alt="imagem hotel" class="img-hotel">
+                <div class="info-hotel">
 
+                    <h2>Cabana dos Ventos</h2>
+                    <div class="text">
+                        <div class="local">
+                            <img src="./assets/icons-hoteis-cards/loc.svg" alt="" class="img-icon-text">
+                            <p>Itajuba- MG</p>
+                        </div>
+                        <div class="valor-nota">
+                            <div class="valor">
+                                <img src="./assets/icons-hoteis-cards/cifrao.svg" alt="" class="img-icon-text">
+                                <p>R$746,00/ Noite</p>
+                            </div>
+                            <img src="./assets/icons-hoteis-cards/star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button class="button">Reserve agora</button>
             </div>
             <div class="hotel">
 
@@ -69,10 +113,10 @@
             </div>
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="sobre">
         <div class="container-footer">
             <div class="container-footer-endereco">
-                <img src="./assets/logo.png" alt="logo footer" class="logo-footer">
+                <img src="./assets/logotipo.svg" alt="logo footer" class="logo-footer">
                 <h3>Encontre a ABMR</h3>
                 <p><span>Endereço: </span>R. Girassóis Setor Explanada - Itumbiara GO - CEP 22.345-678 Brasil</p>
                 <button>Ver Mapa</button>
