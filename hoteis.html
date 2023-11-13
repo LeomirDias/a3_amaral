@@ -3,15 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/hoteis.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="menu">
+        <img alt="logo-header"id="logo" src="./assets/logo.png">
+        <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Promoções</li>
+            <li>Hotéis</li>
+        </ul>
+        <button id="comprar">Comprar</button>
+        <div> 
+            <img src="./assets/icons-rede-social/wppicone.png" alt="whatsapp">
+        </div>
+    </header>
+    <main>
+        <div class="hoteis">
+            <div class="hotel">
+                <img src="./assets/hoteis/imagem.png" alt="imagem hotel" class="img-hotel">
+                <div class="info-hotel">
+
+                    <h2>Hotel Turismo</h2>
+                    <div class="text">
+                        <div class="local">
+                            <img src="./assets/icons-hoteis-cards/loc.svg" alt="" class="img-icon-text">
+                            <p>Parque das Águas - Caldas Novas GO</p>
+                        </div>
+                        <div class="valor-nota">
+                            <div class="valor">
+                                <img src="./assets/icons-hoteis-cards/cifrao.svg" alt="" class="img-icon-text">
+                                <p>200 Reais / Dia</p>
+                            </div>
+                            <img src="./assets/icons-hoteis-cards/star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <button class="button">Reserve agora</button>
+            </div>
+            <div class="hotel">
+
+            </div>
+            <div class="hotel">
+
+            </div>
+            <div class="hotel">
+
+            </div>
+            <div class="hotel">
+
+            </div>
+            <div class="hotel">
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="container-footer-endereco">
+                <img src="./assets/logo.png" alt="logo footer" class="logo-footer">
+                <h3>Encontre a ABMR</h3>
+                <p><span>Endereço: </span>R. Girassóis Setor Explanada - Itumbiara GO - CEP 22.345-678 Brasil</p>
+                <button>Ver Mapa</button>
+                <p>Fale conosco com apenas um clique!</p>
+            </div>
+            
+            <div class="container-footer-horario">
+                <div>
+                    <img src="./assets/icons-rede-social/instagram.png" alt="instagram" class="icon-rede-social-footer">
+                    <img src="./assets/icons-rede-social/facebook.png" alt="facebook" class="icon-rede-social-footer">
+                    <img src="./assets/icons-rede-social/youtube.png" alt="youtube" class="icon-rede-social-footer">
+                    <img src="./assets/icons-rede-social/tiktok.png" alt="tiktok" class="icon-rede-social-footer">
+                </div>
+                <div>
+                    <h3>Hórario de Funcionamento</h3>
+                    <p>De Segunda a Sexta, das 6h às 22h</p>
+                </div>
+            </div>
+
+            <div class="container-footer-lista">
+                <img src="./assets/icons-rede-social/airplane.png" alt="aviao" class="logo-footer">
+                <p><a href="">Home</a></p>
+                <p>Hoteis</p>
+                <p>Sobre</p>
+                <div>
+                    <button id="promocoes">Promoções</button>
+                    <button id="checking">Checking</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="dev">
+            <span>By Matheus e Leomir</span>
+        </div>
+    </footer>
 </body>
 </html>
