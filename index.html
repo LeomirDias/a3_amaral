@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/promocoes.css">
      <title>ABMR TURISMO</title>
 
 
@@ -16,14 +17,17 @@
 
 </head>
 <body>
+
    <header class="menu">
         <img alt="logo-header"id="logo" src="./assets/logotipo.svg">
         <ul>
-            <li>Home</li>
+            <a href="#principal">
+                <li>Home</li>
+            </a>
             <a href="#sobre">
                 <li>Sobre</li>
             </a>
-           <a href="">
+           <a href="#destaques">
             <li>Promoções</li>
            </a>
             <a href="./hoteis.html" target="_self">
@@ -40,13 +44,67 @@
     </header>
 
     <main>
-            <div class="banner-home">
-                <div class="bf-image">
-                    <img src="./assets/banner.png" alt="bfbanner" class="black-friday-banner">
+        <div class="banner-home" id="principal">
+            <div class="bf-image">
+                <img src="./assets/banner.png" alt="bfbanner" class="black-friday-banner">
+            </div>
+        </div>
+
+        <section id="destaques">
+            <h2 class="vertical" style="transform:translate3d(1e-05px, 16px, 1e-05px) rotate(180deg);">Promoções</h2>
+            <div class="container-promo1">
+                <div class="promo-1">
+                    <a class="item-1" href="./hoteis.html">
+                        <div class="img-card"></div>
+                        <div class="texto">
+                            <h4> Paraíso das águas quentes! </h4>
+                            <p>O local mais aconchegante de Caldas Novas - GO. <br> Desfrute de todo esse conforto!</p>
+                        </div>
+                            <div class="valor">
+                                <span>A partir de</span>
+                                <strong>R$ 300</strong>
+                            </div>
+                            <span class="comprar">Comprar</span>
+                    </a>
                 </div>
             </div>
-    </main>
 
+            <div class="container-promo2">
+                <div class="promo-2">
+                    <a class="item-2" href="./hoteis.html">
+                        <div class="img-card-2"></div>
+                        <div class="texto-2">
+                            <h4> Paraíso das águas quentes! </h4>
+                            <p>O local mais aconchegante de Caldas Novas - GO. <br> Desfrute de todo esse conforto!</p>
+                        </div>
+                            <div class="valor-2">
+                                <span>A partir de</span>
+                                <strong>R$ 300</strong>
+                            </div>
+                            <span class="comprar-2">Comprar</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="container-promo3">
+                <div class="promo-3">
+                    <a class="item-3" href="./hoteis.html">
+                        <div class="img-card-3"></div>
+                        <div class="texto-3">
+                            <h4> Paraíso das águas quentes! </h4>
+                            <p>O local mais aconchegante de Caldas Novas - GO. <br> Desfrute de todo esse conforto!</p>
+                        </div>
+                            <div class="valor-3">
+                                <span>A partir de</span>
+                                <strong>R$ 300</strong>
+                            </div>
+                            <span class="comprar-3">Comprar</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
     <footer class="footer" id="sobre">
         <div class="container-footer">
             <div class="container-footer-endereco">
@@ -86,5 +144,6 @@
             <span>By Matheus e Leomir</span>
         </div>
     </footer>
+
 </body>
 </html>
