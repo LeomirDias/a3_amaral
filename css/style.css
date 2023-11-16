@@ -10,7 +10,10 @@ a {
   color: #fff;
   text-decoration: none;
 }
-
+#webicon{
+  height: 30px;
+  width: 30px;
+}
 main {
   height: 200vh;
   background-color: #9de1ff; 

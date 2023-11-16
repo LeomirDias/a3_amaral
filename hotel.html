@@ -3,15 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/hotel.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hoteis.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hotel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="menu">
+        <img alt="logo-header"id="logo" src="./assets/logotipo.svg">
+        <ul>
+            <a href="#principal">
+                <li>Home</li>
+            </a>
+            <a href="#sobre">
+                <li>Sobre</li>
+            </a>
+           <a href="#destaques">
+            <li>Promoções</li>
+           </a>
+            <a href="./hoteis.html" target="_self">
+                <li>Hotéis</li>
+            </a>
+        </ul>
+        <button id="comprar">Comprar</button>
+        <div id="icons-header"> 
+                <img src="./assets/icons-rede-social/igicon-header.png" alt="instagram" class="header-ig">
+                <img src="./assets/icons-rede-social/wppicone.png" alt="whatsapp" class="header-wpp">
+        </div>
+    </header>
+
+    <main>
+        <div class="container-hotel-casa-campo">
+            <img src="./assets/hoteis/casa-campo.jpeg" alt="imagem hotel" class="img-casacampo">
+        </div>
+    </main>
+
+    <footer class="footer" id="sobre">
+        <div class="container-footer">
+            <div class="container-footer-endereco">
+                <img src="./assets/logotipo.svg" alt="logo footer" class="logo-footer">
+                <h3>Encontre a ABMR</h3>
+                <p><span>Endereço: </span>R. Girassóis Setor Explanada - Itumbiara GO - CEP 22.345-678 Brasil</p>
+                <button>Ver Mapa</button>
+                <p>Fale conosco com apenas um clique!</p>
+            </div>
+            
+            <div class="container-footer-horario">
+                <div class="footer-imgs-horario">
+                    <img src="./assets/icons-rede-social/instagram.png" alt="instagram" class="icon-rede-social-footer">
+                    <img src="./assets/icons-rede-social/facebook.png" alt="facebook" class="icon-rede-social-footer">
+                    <img src="./assets/icons-rede-social/youtube.png" alt="youtube" class="icon-rede-social-footer">
+                    <img src="./assets/icons-rede-social/tiktok.png" alt="tiktok" class="icon-rede-social-footer">
+                </div>
+                <div>
+                    <h3>Hórario de Funcionamento</h3>
+                    <p>De Segunda a Sexta, das 6h às 22h</p>
+                </div>
+            </div>
+
+            <div class="container-footer-lista">
+                <img src="./assets/icons-rede-social/airplane.png" alt="aviao" class="logo-footer">
+                <div class="buttons-link-lista">
+                    <p><a href="">Home</a></p>
+                    <p>Hoteis</p>
+                    <p>Sobre</p>
+                </div>
+                <div>
+                    <button id="promocoes">Promoções</button>
+                    <button id="checking">Checking</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="dev">
+            <span>By Matheus e Leomir</span>
+        </div>
+    </footer>
 </body>
 </html>
