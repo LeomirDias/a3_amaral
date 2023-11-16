@@ -1,3 +1,7 @@
+#destaques{
+    position: absolute;
+    top: 920px;
+}
 #destaques .vertical{
     font-weight: 700;
     font-size: 4.375rem;
@@ -6,7 +10,7 @@
     white-space: nowrap;
     position: absolute;
     left: calc((100% - 1290px)/2/2 - 35px);
-    top: 1096px;
+    top: 130px;
 }
 .container-promo1{
     --bs-gutter-x: 1.5rem;
