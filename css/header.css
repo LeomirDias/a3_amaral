@@ -1,5 +1,5 @@
 .menu{
-    height: 112px;
+    height: 100px;
     width: 100vw;
     position: fixed;
     display: flex;
@@ -102,5 +102,4 @@
     cursor: pointer;
     content: url('../assets/icons-rede-social/instagram.png');
 }
-
 
