@@ -12,20 +12,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>ABMR | Pousada da Alto Boa Vista</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/logotipo.png">
 </head>
 
 <body>
-    <header class="menu">
+    <header class="menu" id="alternative-menu">
         <img alt="logo-header"id="logo" src="./assets/logotipo.svg">
         <ul>
-            <a href="#principal">
+            <a href="./index.html">
                 <li>Home</li>
             </a>
             <a href="#sobre">
                 <li>Sobre</li>
             </a>
-           <a href="#destaques">
+           <a href="./index.html">
             <li>Promoções</li>
            </a>
             <a href="./hoteis.html" target="_self">
@@ -40,15 +41,15 @@
     </header>
 
     <main>
-        <div class="container-hotel6">
-            <img src="./assets/hoteis/hotel6.jpg" alt="imagem hotel" class="img-hotel-principal">
-            <img src="./assets/hotel/img-1.JPG" alt="imagem hotel" class="img-hotel-1">
-            <img src="./assets/hotel/img-2.JPG" alt="imagem hotel" class="img-hotel-2">
-            <img src="./assets/hotel/img-3.JPG" alt="imagem hotel" class="img-hotel-3">
-        </div>
+        <div class="container-main">
 
+            <div class="container-hotel6">
+                <img src="./assets/hoteis/hotel6.jpg" alt="imagem hotel" class="img-hotel-principal">
+                <img src="./assets/hotel/img-1.JPG" alt="imagem hotel" class="img-hotel-1">
+                <img src="./assets/hotel/img-2.JPG" alt="imagem hotel" class="img-hotel-2">
+                <img src="./assets/hotel/img-3.JPG" alt="imagem hotel" class="img-hotel-3">
+            </div>
 
-        <div class="container-info-hotel">
             <div class="pousada-alto-boa-vista">
                 <div class="info-hotel-boa-vista">
                     <h2>Pousada Alto da Boa Vista</h2>
@@ -57,21 +58,50 @@
                             <img src="./assets/icons-hoteis-cards/loc.svg" alt="" class="img-icon-text">
                             <p>Campos do Jordão- SP</p>
                         </div>
-                        <div class="valor-nota">
+                        <div class="valor">
                             <div class="valor">
                                 <img src="./assets/icons-hoteis-cards/cifrao.svg" alt="" class="img-icon-text">
                                 <p>R$499,00/ Noite</p>
                             </div>
-                            <img src="./assets/icons-hoteis-cards/star.svg" alt="">
                         </div>
                     </div>
+                    <img src="./assets/icons-hoteis-cards/star.svg" alt="estrelas" class="nota">
                 </div>
                 <a href="./hotel.html">
                     <button class="button">Reserve agora</button>
                 </a>
+                <!--<a href="./hoteis.html">
+                    <button class="return">Voltar</button>
+                </a>-->
+            </div>
+            <div class="container-description">
+                <div class="card">
+                    <img src="./assets/icons-hotel/coffe.png" alt="café da manhã" class="img">
+                    <p class="text-description">Café da manhã completo e diversificado</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/icons-hotel/bedroom.png" alt="quarto" class="img">
+                    <p class="text-description">Quartos bem equipados</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/icons-hotel/bath.png" alt="banheiras" class="img">
+                    <p class="text-description">Banheiras de hidromassagem ultra relaxantes</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/icons-hotel/pool.png" alt="piscina" class="img">
+                    <p class="text-description">Piscinas aquecidas</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/icons-hotel/games.png" alt="games" class="img">
+                    <p class="text-description">Sala de jogos diversos</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/icons-hotel/castle.png" alt="parque" class="img">
+                    <p class="text-description">Mini parque de diversão para crianças</p>
+                </div>
             </div>
         </div>
-            
+
     </main>
 
     <footer class="footer" id="sobre">
