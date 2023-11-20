@@ -59,8 +59,8 @@ main {
     align-items: center;
 }
 
-.local p {
-    text-align: start;
+.local p, .valor p {
+    text-align: center;
 }
 
 .valor-nota {
@@ -96,5 +96,11 @@ main {
 @media only screen and (max-width:1530px) {
     .hoteis {
         width: 98%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .hotel {
+        height: 460px;
     }
 }
