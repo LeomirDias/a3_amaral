@@ -64,18 +64,15 @@
 }
 
 #icons-header{
-    width: 100px;
-    height: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .header-wpp{
     width: 50px;
     border: 2px solid #0c3883;
     border-radius: 50%;
     padding: 8px;
-    margin: 10px;
     overflow-clip-margin: border-box;
     transition: .4s;
 }
