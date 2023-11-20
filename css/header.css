@@ -7,7 +7,8 @@
     background-color: #9de1ff;
     justify-content:center;
     gap: 60px;
-    z-index: 10;   
+    z-index: 10;
+    padding-right: 10px;
 }
 
 #logo{
@@ -100,4 +101,90 @@
     content: url('../assets/icons-rede-social/instagram.png');
 }
 
+ 
+.hamburguer {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+ }
 
+ .hamburguer::before,
+ .hamburguer::after {
+   content: '';
+   display: block;
+   width: 30px;
+   height: 3px;
+   background: #fff;
+   margin-top: 5px;
+   position: relative;
+ }
+
+@media only screen and (max-width:1100px) {
+    .menu {
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+
+    .hamburguer {
+        display: block;
+        z-index: 5;
+     }
+     
+     .menu.active .hamburguer {
+        border-top: transparent;
+     }  
+  
+     .menu.active .hamburguer::before {
+        transform: rotate(135deg)
+     }
+  
+     .menu.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+     }
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    .menu #comprar, .menu #icons-header {
+        display: none;
+    }
+
+    .menu ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        z-index: 3;
+        background-color: rgba(51, 107, 153, 0.702);
+
+        clip-path: circle(100px at 100% -25%);
+        pointer-events: none;
+        transition: .4s;
+    }
+
+    .menu ul a li {
+        color: #fff;
+        opacity: 0;
+    }
+
+    .menu.active ul {
+      clip-path: circle(1500px at 90% -15%);
+      pointer-events: all;
+    }
+
+    .menu.active ul a li {
+        opacity: 1;
+     }
+}
