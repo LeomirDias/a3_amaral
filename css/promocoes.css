@@ -1,6 +1,7 @@
 #destaques{
     position: absolute;
     top: 920px;
+    width: 100vw;
 }
 #destaques .vertical{
     font-weight: 700;

@@ -6,6 +6,10 @@
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -15,6 +19,5 @@ a {
   width: 30px;
 }
 main {
-  height: 200vh;
   background-color: #9de1ff; 
 }

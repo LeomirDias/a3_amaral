@@ -2,7 +2,7 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 112px;
-    height: 130vh;
+    min-height: 130vh;
 }
 
 .hoteis {
@@ -91,4 +91,10 @@ main {
 
 .button:hover {
     transform: translateX(-50%) scale(1.05);
+}
+
+@media only screen and (max-width:1530px) {
+    .hoteis {
+        width: 98%;
+    }
 }
