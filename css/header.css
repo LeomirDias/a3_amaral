@@ -1,5 +1,5 @@
 .menu{
-    height: 112px;
+    height: 100px;
     width: 100vw;
     position: fixed;
     display: flex;
@@ -101,6 +101,7 @@
     content: url('../assets/icons-rede-social/instagram.png');
 }
 
+
  
 .hamburguer {
     display: none;
@@ -190,3 +191,4 @@
         opacity: 1;
      }
 }
+
