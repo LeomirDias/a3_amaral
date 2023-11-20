@@ -106,7 +106,7 @@
     display: none;
     border: none;
     background: none;
-    border-top: 3px solid #fff;
+    border-top: 3px solid #0c3883;
     cursor: pointer;
  }
 
@@ -116,7 +116,7 @@
    display: block;
    width: 30px;
    height: 3px;
-   background: #fff;
+   background: #0c3883;
    margin-top: 5px;
    position: relative;
  }
@@ -139,11 +139,13 @@
      }  
   
      .menu.active .hamburguer::before {
-        transform: rotate(135deg)
+        transform: rotate(135deg);
+        background: #fff;
      }
   
      .menu.active .hamburguer::after {
         transform: rotate(-135deg);
+        background: #fff;
         top: -7px;
      }
 
