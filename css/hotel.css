@@ -3,128 +3,87 @@ main {
     height: 200vh;
 }
 .container-main{
-    width: 100%;
-    height: 100%;
-    display: flex;
+    width: 100vw;
+    height: 90%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
+
 }
-.container-hotel6{
+.container-images{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 0px;
-    left: 300px;
-    flex-wrap: wrap;
-    gap: 70px 30px;
-    padding: 30px 0;
-    height: min-content;
 }   
-.img-hotel-principal{
+
+.imagens{
+    margin: 10px;
+}
+
+.hotel-image{
+    border-radius: 10px;
+}
+
+#img-1{
     width: 621px;
-    border-radius: 10px;
-    position: absolute;
-    left: 132px;
-    top: 142px;
-    margin-left: 3px;
 }
-.img-hotel-1{
+
+#img-2{
     width: 403px;
-    height: 250px;
-    border-radius: 10px;
-    position: absolute;
-    left: 756px;
-    top: 142px;
-    margin-left: 3px;
+    height: 250px; 
 }
-.img-hotel-2{
+
+#img-3{
     width: 200px;
     height: 160px;
-    border-radius: 10px;
-    position: absolute;
-    left: 756px;
-    top: 393px;
-    margin-left: 3px;
-    margin-top: 3px;
 }
-.img-hotel-3{
+
+#img-4{
     width: 200px;
-    height: 160px;
-    border-radius: 10px;
-    position: absolute;
-    left: 957px;
-    top: 393px;
-    margin-left: 6px;
-    margin-top: 3px;
+    height: 160px
 }
 
-
-.pousada-alto-boa-vista {
+.infos-hotel {
+    height: 60%;
     width: 100%;
-    height: 415px;
-    border-radius: 28px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 411px;
-    top: 545px;
+    display: grid;
+    margin-left: 30px;
 }
 
-.info-hotel-boa-vista {
-    padding: 0 20px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.info-hotel-boa-vista  h2 {
+.infos-hotel  h2 {
     color: #00214C;
     font-size: 50px;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 20%;
-    position: absolute;
-    top: 20px;
-    left: 700px;
-    color: #00214C;
+.nota{
+    width: 150px;
+    height: 46px;
 }
 
-.local p {
-    text-align: start;
-    text-align: start;
-    font-size: 25px;
+.container-infos {
+    width: 100%;
+    height: 60%;
 }
 
-.img-icon-text {
-    width: 25px;
-    height: 30px;
-}
-
-.local, .valor,{
+.local, .valor {
     display: flex;
     text-align: center;
-    gap: 5px;
     align-items: center;
+    gap: 10px;
 }
 
-.valor {
-    justify-content: space-between;
-    font-size: 25px;
+.text-infos {
+    font-size: 1.5rem;
+    color: #00214C;
+    margin: 5px 5px;
 }
 
-.nota{
-    width: 100px;
-    height: 100px;
+.interactive{
     position: absolute;
-    bottom: 285px;
-    left: 18px;
+    right: 1639px;
+    bottom: 13px;
 }
 
 .button {
@@ -137,39 +96,15 @@ main {
     font-weight: 700;
     width: 250px;
     height: 60px;
-    position: absolute;
-    top: 117px;
-    left: 810px;
-    transform: translateX(-50%);
     cursor: pointer;
     transition: .4s;
 }
 
 .button:hover {
     transform: translateX(-50%) scale(1.05);
+    color: white;
 }
 
-/*.return{
-    background-color: white;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    color: #00214C;
-    font-weight: 500;
-    width: 100px;
-    height: 30px;
-    position: absolute;
-    top: 190px;
-    left: 800px;
-    transform: translateX(-50%);
-    cursor: pointer;
-    transition: .4s;
-}
-
-.return:hover{
-    transform: translateX(-50%) scale(1.05);
-}*/
 .container-description{
     width: 100%;
     display: flex;
