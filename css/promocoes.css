@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-block: 30px;
 }
 
 #destaques .vertical{
@@ -18,19 +19,28 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .container-card{
     width: 316px;
+    height: 440px;
+    background-color: #17a3dd;
+    border-radius: 10px;
+
 }
 
 .card{
-    background-color: #17a3dd;
-    border-radius: 10px;
     display: block;
     padding: 20px;
     box-shadow: 22px -16px 30px 0px rgba(0, 0, 0, 0.1);
     transition: .4s;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .card:hover{
@@ -108,11 +118,37 @@
     color: white;
 }
 
-@media only screen and (max-width:850px){
-    main{
-        height: 200vh;
+@media only screen and (max-width:1140px){
+        
+    #destaques .vertical{
+        transform: rotate(270deg);
+        font-size: 2rem;
     }
 
+    .container-vertical{
+        width: 100%;
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .container-promo{
+        flex-direction: column;
+    }
+    
+    .container-card{
+        max-width: 500px;
+        width: 90%;     
+        margin: 20px;
+        height: auto;
+    }
+
+}
+
+
+@media only screen and (max-width:850px){
     #destaques{
         display: flex;
         align-items: center;
