@@ -2,6 +2,7 @@ main {
     display: flex;
     justify-content: center;
     padding-top: 112px;
+    height: auto;
     min-height: 130vh;
 }
 
