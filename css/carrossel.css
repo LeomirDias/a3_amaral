@@ -101,3 +101,32 @@
     background-color: white;
     color: black;
 }
+
+@media only screen and (max-width:850px) {
+    .carrossel {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .imgs {
+        width: 310px;
+    }
+
+    .img-4, .img-6 {
+        width: 110px;
+    }
+    
+    .img-1, .img-3 {
+        width: 210px;
+    }
+
+    .carrossel {
+        overflow: hidden;
+    }
+    
+    .button-voltar, .button-proximo {
+        width: 140px;
+    }
+}
