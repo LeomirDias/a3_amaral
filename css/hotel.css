@@ -1,14 +1,8 @@
 main {
     padding-top: 112px;
-    height: 200vh;
+    height: auto;
 }
-.container-main{
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
 
-}
 .container-images{
     width: 100%;
     display: flex;
@@ -50,6 +44,7 @@ main {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    padding-block: 50px;
 }
 
 .infos-hotel  h2 {
@@ -79,8 +74,8 @@ main {
     margin: 5px 5px;
 }
 
-.button {
-    border-radius: 25px;
+.button-hotel {
+    border-radius: 8px;
     background-color: #FFB93F;
     border: none;
     outline: none;
@@ -93,8 +88,7 @@ main {
     transition: .4s;
 }
 
-.button:hover {
-    transform: translateX(-50%) scale(1.05);
+.button-hotel:hover {
     color: white;
 }
 
@@ -104,13 +98,14 @@ main {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
 }
 .card{
     background-color: #FFB93F;
     width: 260px;
     height: 400px;
     border-radius: 5px;
-    margin: 10px;
     box-shadow: 0 21px 32px -27px #0c3883;
     overflow: hidden;
 }

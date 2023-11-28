@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/hotel.css">
+    <link rel="stylesheet" href="./css/carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -15,6 +16,7 @@
     <title>ABMR | Pousada da Alto Boa Vista</title>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/logotipo.png">
     <script defer src="./js/script.js"></script>
+    <script defer src="./js/carrossel.js"></script>
 
 </head>
 
@@ -50,7 +52,22 @@
     <main>
         <div class="container-main">
 
-            <div class="container-images">
+
+            <div class="box-carrossel">
+                <div class="carrossel">
+                    <img src="./assets/hoteis/hotel6.jpg" alt="img1" class="imgs img-1">
+                    <img src="./assets/hotel/img-1.JPG" alt="img2" class="imgs img-2">
+                    <img src="./assets/hotel/img-2.JPG" alt="img3" class="imgs img-3">
+                    <img src="./assets/hotel/img-3.JPG" alt="img4" class="imgs img-4">
+        
+                    <div class="box-buttons">
+                        <button class="button-voltar">Voltar</button>
+                        <button class="button-proximo">Próximo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="container-images">
                 <div class="imagens" id="group-1">
                     <img src="./assets/hoteis/hotel6.jpg" alt="imagem hotel" class="hotel-image" id="img-1">
                 </div>
@@ -61,7 +78,7 @@
                         <img src="./assets/hotel/img-3.JPG" alt="imagem hotel" class="hotel-image" id="img-4">
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="container-infos">
                 <div class="infos-hotel">
@@ -83,12 +100,9 @@
 
                         <div class="interactive">
                             <a href="./hotel.html">
-                                <button class="button">Reserve agora</button>
+                                <button class="button-hotel">Reserve agora</button>
                             </a>
                         </div>
-
-                        
-
                     </div>
                 </div>
             </div>
