@@ -1,21 +1,28 @@
 main {
     height: auto;
+    padding-top: 100px;
 }
 
-.banner-home{
-    display: flex;
-    align-items: center;
+.banner-home {
+    overflow: hidden;
+    height: 700px;
+    background: url('../assets/bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
 }
-.bf-image{
-    padding: 105px 5px 60px 6px;
-    width: 100%;
-}
+
 .black-friday-banner{
     width: 100%;
-    border-radius: 50px;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 @media only screen and (max-width:850px){
-.bf-image{
-    padding: 105px 5px 10px 5px;
-}
+    .black-friday-banner {
+        height: 100%;
+        width: auto;
+    }
+
+    .banner-home {
+        height: 400px;
+    }
 }
