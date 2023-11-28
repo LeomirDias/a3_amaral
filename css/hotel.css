@@ -59,6 +59,7 @@ main {
 
 .container-infos {
     width: 100%;
+    padding-inline: 30px;
 }
 
 .local, .valor {
@@ -100,6 +101,7 @@ main {
     flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 30px;
+    max-width: 1100px;
 }
 .card{
     background-color: #FFB93F;
@@ -120,4 +122,47 @@ main {
     font-weight: 700;
     margin: 60px 15px;
     color: #00214C;
+}
+
+@media only screen and (max-width:600px) {
+    .container-description {
+        gap: 0;
+    }
+
+    .card {
+        margin: 10px;
+        background-color: #FFB93F;
+        width: 170px;
+        height: 280px;
+        border-radius: 5px;
+        box-shadow: 0 21px 32px -27px #0c3883;
+        overflow: hidden;
+    }
+
+    .img {
+        display: block;
+        margin: 50px auto 40px;
+        height: 70px;
+    }
+    
+    .text-description {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .card {
+        margin: 5px;
+        width: 150px;
+        height: 230px;
+    }
+
+    .text-description {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .img {
+        height: 60px;
+    }
 }
